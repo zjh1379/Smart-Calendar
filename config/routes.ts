@@ -11,6 +11,7 @@
  * @doc https://umijs.org/docs/guides/routes
  */
 export default [
+
   {
     path: '/user',
     layout: false,
@@ -22,12 +23,16 @@ export default [
       },
     ],
   },
+  /*
   {
     path: '/welcome',
-    name: 'welcome',
+    name: 'Guid',
     icon: 'smile',
     component: './Welcome',
   },
+
+   */
+/*
   {
     path: '/admin',
     name: 'admin',
@@ -45,18 +50,23 @@ export default [
       },
     ],
   },
+
+ */
   {
     name: 'Calender',
     icon: 'Calendar',
     path: '/calender',
     component: './Calendar',
-  },/*
+  },
+  /*
   {
     name: 'list.table-list',
     icon: 'table',
     path: '/list',
     component: './TableList',
-  },*/
+  },
+
+   */
   {
     path: '/',
     redirect: '/welcome',
