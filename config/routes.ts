@@ -23,7 +23,6 @@ export default [
       },
     ],
   },
-  /*
   {
     path: '/welcome',
     name: 'Guid',
@@ -31,7 +30,7 @@ export default [
     component: './Welcome',
   },
 
-   */
+
 /*
   {
     path: '/admin',
