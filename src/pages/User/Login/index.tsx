@@ -2,12 +2,12 @@ import { Footer } from '@/components';
 import { login } from '@/services/ant-design-pro/api';
 import { getFakeCaptcha } from '@/services/ant-design-pro/login';
 import {
-  AlipayCircleOutlined,
+  //AlipayCircleOutlined,
   LockOutlined,
   MobileOutlined,
-  TaobaoCircleOutlined,
+ // TaobaoCircleOutlined,
   UserOutlined,
-  WeiboCircleOutlined,
+ // WeiboCircleOutlined,
 } from '@ant-design/icons';
 import {
   LoginForm,
@@ -36,7 +36,7 @@ const ActionIcons = () => {
       },
     };
   });
-
+/*
   return (
     <>
       <AlipayCircleOutlined key="AlipayCircleOutlined" className={langClassName} />
@@ -44,6 +44,8 @@ const ActionIcons = () => {
       <WeiboCircleOutlined key="WeiboCircleOutlined" className={langClassName} />
     </>
   );
+
+ */
 };
 
 const Lang = () => {
